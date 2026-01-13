@@ -1273,6 +1273,232 @@ export const dummyProperties = [
       "https://images.unsplash.com/photo-1717161282488-528e26aa307b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDd8fE1vZGVybiUyMERlc2VydCUyMENhdmUlMjBIb3VzZXxlbnwwfHwwfHx8MA%3D%3D",
     ],
   },
+   {
+    _id: "MI-01",
+    title: "Miami Beach Oceanfront Penthouse",
+    description:
+      "Spectacular oceanfront penthouse in Miami Beach featuring floor-to-ceiling glass walls, private balcony, and breathtaking Atlantic views.",
+    price: 720,
+    propertyType: "Condo",
+    category: "Luxury",
+    capacity: {
+      bedrooms: 3,
+      bathrooms: 3,
+    },
+    size: 230,
+    rating: 4.96,
+    trending: true,
+    location: {
+      city: "Miami",
+      country: "USA",
+    },
+    amenities: {
+      wifi: true,
+      kitchen: true,
+      parking: true,
+      gym: true,
+      hotTub: true,
+    },
+    features: ["Luxury", "Ocean View", "Premium"],
+    images: [
+      "https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=600&q=60",
+    ],
+  },
+
+  {
+    _id: "MI-02",
+    title: "Brickell Skyline Luxury Condo",
+    description:
+      "High-rise luxury condo in Brickell with stunning skyline and bay views, modern interiors, and access to rooftop amenities.",
+    price: 640,
+    propertyType: "Condo",
+    category: "Luxury",
+    capacity: {
+      bedrooms: 2,
+      bathrooms: 2,
+    },
+    size: 180,
+    rating: 4.91,
+    trending: true,
+    location: {
+      city: "Miami",
+      country: "USA",
+    },
+    amenities: {
+      wifi: true,
+      kitchen: true,
+      parking: true,
+      gym: true,
+      hotTub: true,
+    },
+    features: ["Luxury", "Skyline View", "Modern"],
+    images: [
+      "https://images.unsplash.com/photo-1600585154084-4e5f76bca7f2?auto=format&fit=crop&w=600&q=60",
+    ],
+  },
+
+  {
+    _id: "MI-03",
+    title: "South Beach Designer Penthouse",
+    description:
+      "Designer penthouse in South Beach with chic interiors, rooftop terrace, and walking distance to Miami’s famous nightlife and beaches.",
+    price: 690,
+    propertyType: "Condo",
+    category: "Luxury",
+    capacity: {
+      bedrooms: 3,
+      bathrooms: 2,
+    },
+    size: 210,
+    rating: 4.94,
+    trending: false,
+    location: {
+      city: "Miami",
+      country: "USA",
+    },
+    amenities: {
+      wifi: true,
+      kitchen: true,
+      parking: true,
+      gym: true,
+      hotTub: true,
+    },
+    features: ["Luxury", "Designer", "Rooftop"],
+    images: [
+      "https://images.unsplash.com/photo-1613977257363-707ba9348227?auto=format&fit=crop&w=600&q=60",
+    ],
+  },
+  {
+    _id: "MI-04",
+    title: "Star Island Waterfront Mansion",
+    description:
+      "Iconic waterfront mansion on Star Island with private dock, infinity pool, and panoramic Biscayne Bay views.",
+    price: 1800,
+    propertyType: "Villa",
+    category: "Luxury",
+    capacity: {
+      bedrooms: 6,
+      bathrooms: 7,
+    },
+    size: 520,
+    rating: 5.0,
+    trending: true,
+    location: {
+      city: "Miami",
+      country: "USA",
+    },
+    amenities: {
+      wifi: true,
+      kitchen: true,
+      parking: true,
+      pool: true,
+      gym: true,
+      hotTub: true,
+    },
+    features: ["Luxury", "Waterfront", "Private Dock"],
+    images: [
+      "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=600&q=60",
+    ],
+  },
+
+  {
+    _id: "MI-05",
+    title: "Coral Gables Luxury Villa",
+    description:
+      "Elegant Mediterranean-style villa in Coral Gables with private courtyard, pool, and lush tropical landscaping.",
+    price: 980,
+    propertyType: "Villa",
+    category: "Luxury",
+    capacity: {
+      bedrooms: 4,
+      bathrooms: 4,
+    },
+    size: 350,
+    rating: 4.93,
+    trending: false,
+    location: {
+      city: "Miami",
+      country: "USA",
+    },
+    amenities: {
+      wifi: true,
+      kitchen: true,
+      parking: true,
+      pool: true,
+      gym: false,
+      hotTub: true,
+    },
+    features: ["Luxury", "Private Pool", "Garden"],
+    images: [
+      "https://images.unsplash.com/photo-1600585152915-d208bec867a1?auto=format&fit=crop&w=600&q=60",
+    ],
+  },
+
+  {
+    _id: "MI-06",
+    title: "Downtown Miami High-Rise Apartment",
+    description:
+      "Modern high-rise apartment in downtown Miami with skyline views, coworking lounge, and rooftop pool access.",
+    price: 420,
+    propertyType: "Apartment",
+    category: "Modern",
+    capacity: {
+      bedrooms: 2,
+      bathrooms: 2,
+    },
+    size: 140,
+    rating: 4.75,
+    trending: false,
+    location: {
+      city: "Miami",
+      country: "USA",
+    },
+    amenities: {
+      wifi: true,
+      kitchen: true,
+      parking: true,
+      pool: true,
+      gym: true,
+      hotTub: false,
+    },
+    features: ["City View", "Modern", "High-Rise"],
+    images: [
+      "https://images.unsplash.com/photo-1600607688207-efcb2f40b7aa?auto=format&fit=crop&w=600&q=60",
+    ],
+  },
+
+  {
+    _id: "MI-07",
+    title: "Miami Beach Art Deco House",
+    description:
+      "Charming Art Deco house near Miami Beach with private patio, retro design, and easy access to the ocean.",
+    price: 390,
+    propertyType: "House",
+    category: "Boutique",
+    capacity: {
+      bedrooms: 3,
+      bathrooms: 2,
+    },
+    size: 160,
+    rating: 4.81,
+    trending: false,
+    location: {
+      city: "Miami",
+      country: "USA",
+    },
+    amenities: {
+      wifi: true,
+      kitchen: true,
+      parking: true,
+      pool: false,
+      gym: false,
+      hotTub: false,
+    },
+    features: ["Beachside", "Art Deco", "Private Patio"],
+    images: [
+      "https://images.unsplash.com/photo-1572120360610-d971b9b78825?auto=format&fit=crop&w=600&q=60",
+    ],
+  },
 
    // Apartment
   {

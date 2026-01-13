@@ -5,7 +5,6 @@ import { useAppSettings } from "../contexts/AppSettingsContext";
 import api from "../config/api";
 import dummyProperties from "../data/dummyProperties";
 
-
 const Listings = () => {
   // State for property data and loading indicators
   const [properties, setProperties] = useState([]);
