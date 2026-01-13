@@ -1,4 +1,4 @@
-const dummyProperties = [
+export const dummyProperties = [
   // Apartment category (2 properties)
   {
     _id: "1",
@@ -953,6 +953,130 @@ const dummyProperties = [
       "https://images.unsplash.com/photo-1618219944342-824e40a13285?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZGVzaWduZXIlMjBhcGFydG1lbnR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60",
     ],
   },
+  {
+  _id: "LA-101",
+  title: "Hollywood Hills Sky Condo",
+  description:
+    "Ultra-modern luxury condo in the Hollywood Hills with breathtaking skyline views, private balcony, and premium interiors.",
+  price: 580,
+  propertyType: "Condo",
+  category: "Luxury",
+  capacity: {
+    bedrooms: 2,
+    bathrooms: 2,
+  },
+  size: 180,
+  rating: 4.96,
+  trending: true,
+  location: {
+    city: "Los Angeles",
+    country: "USA",
+  },
+  amenities: {
+    wifi: true,
+    kitchen: true,
+    parking: true,
+    gym: true,
+    hotTub: true,
+  },
+  features: ["Luxury", "City View", "Premium"],
+  images: [
+    "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=600&q=60",
+  ],
+},
+{
+  _id: "LA-102",
+  title: "Beverly Hills Luxury Villa",
+  description:
+    "Exclusive Beverly Hills villa with private swimming pool, landscaped gardens, and world-class interiors.",
+  price: 920,
+  propertyType: "Villa",
+  category: "Luxury",
+  capacity: {
+    bedrooms: 5,
+    bathrooms: 4,
+  },
+  size: 350,
+  rating: 4.99,
+  trending: true,
+  location: {
+    city: "Los Angeles",
+    country: "USA",
+  },
+  amenities: {
+    wifi: true,
+    kitchen: true,
+    parking: true,
+    pool: true,
+    gym: true,
+  },
+  features: ["Luxury", "Private Pool", "Premium"],
+  images: [
+    "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=600&q=60",
+  ],
+},
+{
+  _id: "LA-103",
+  title: "Santa Monica Beachfront Penthouse",
+  description:
+    "Luxury penthouse located steps from Santa Monica Beach featuring ocean views, modern interiors, and rooftop lounge.",
+  price: 720,
+  propertyType: "Condo",
+  category: "Luxury",
+  capacity: {
+    bedrooms: 3,
+    bathrooms: 3,
+  },
+  size: 240,
+  rating: 4.97,
+  trending: true,
+  location: {
+    city: "Los Angeles",
+    country: "USA",
+  },
+  amenities: {
+    wifi: true,
+    kitchen: true,
+    parking: true,
+    gym: true,
+    hotTub: true,
+  },
+  features: ["Luxury", "Ocean View", "Premium"],
+  images: [
+    "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=600&q=60",
+  ],
+},
+{
+  _id: "LA-104",
+  title: "Downtown LA Executive Condo",
+  description:
+    "High-rise luxury condo in Downtown Los Angeles with floor-to-ceiling windows and modern open-plan living.",
+  price: 540,
+  propertyType: "Condo",
+  category: "Luxury",
+  capacity: {
+    bedrooms: 2,
+    bathrooms: 2,
+  },
+  size: 160,
+  rating: 4.93,
+  trending: true,
+  location: {
+    city: "Los Angeles",
+    country: "USA",
+  },
+  amenities: {
+    wifi: true,
+    kitchen: true,
+    parking: true,
+    gym: true,
+  },
+  features: ["Luxury", "Skyline View", "Premium"],
+  images: [
+    "https://images.unsplash.com/photo-1560448075-bb0caa6d7d41?auto=format&fit=crop&w=600&q=60",
+  ],
+},
+
 
   // Farm category (2 properties)
   {
@@ -1044,6 +1168,129 @@ const dummyProperties = [
       "https://images.unsplash.com/photo-1488462237308-ecaa28b729d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8dHJlZWhvdXNlfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60",
     ],
   },
+  {
+  _id: "LA-105",
+  title: "Downtown LA Modern Apartment",
+  description:
+    "Contemporary apartment in the heart of Downtown LA with rooftop access, gym, and vibrant city views.",
+  price: 350,
+  propertyType: "Apartment",
+  category: "Standard",
+  capacity: {
+    bedrooms: 1,
+    bathrooms: 1,
+  },
+  size: 80,
+  rating: 4.7,
+  trending: false,
+  location: {
+    city: "Los Angeles",
+    country: "USA",
+  },
+  amenities: {
+    wifi: true,
+    kitchen: true,
+    parking: true,
+    gym: true,
+  },
+  features: ["City View", "Modern"],
+  images: [
+    "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=600&q=60",
+  ],
+},
+{
+  _id: "LA-106",
+  title: "Beverly Hills Luxury House",
+  description:
+    "Spacious house in Beverly Hills with private garden, pool, and modern interiors. Perfect for families.",
+  price: 750,
+  propertyType: "House",
+  category: "Luxury",
+  capacity: {
+    bedrooms: 4,
+    bathrooms: 3,
+  },
+  size: 300,
+  rating: 4.95,
+  trending: true,
+  location: {
+    city: "Los Angeles",
+    country: "USA",
+  },
+  amenities: {
+    wifi: true,
+    kitchen: true,
+    parking: true,
+    pool: true,
+    gym: true,
+  },
+  features: ["Luxury", "Private Pool", "Family Friendly"],
+  images: [
+    "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=600&q=60",
+  ],
+},
+{
+  _id: "LA-107",
+  title: "Malibu Beach Villa",
+  description:
+    "Exclusive beachfront villa in Malibu with infinity pool, private access to the beach, and luxurious interiors.",
+  price: 1200,
+  propertyType: "Villa",
+  category: "Luxury",
+  capacity: {
+    bedrooms: 5,
+    bathrooms: 4,
+  },
+  size: 400,
+  rating: 5.0,
+  trending: true,
+  location: {
+    city: "Los Angeles",
+    country: "USA",
+  },
+  amenities: {
+    wifi: true,
+    kitchen: true,
+    parking: true,
+    pool: true,
+    gym: true,
+    hotTub: true,
+  },
+  features: ["Luxury", "Ocean View", "Premium"],
+  images: [
+    "https://images.unsplash.com/photo-1599423300746-b62533397364?auto=format&fit=crop&w=600&q=60",
+  ],
+},
+{
+  _id: "LA-108",
+  title: "Hollywood Studio Apartment",
+  description:
+    "Chic studio apartment near Hollywood Blvd with modern amenities, perfect for solo travelers or couples.",
+  price: 220,
+  propertyType: "Apartment",
+  category: "Standard",
+  capacity: {
+    bedrooms: 1,
+    bathrooms: 1,
+  },
+  size: 50,
+  rating: 4.6,
+  trending: false,
+  location: {
+    city: "Los Angeles",
+    country: "USA",
+  },
+  amenities: {
+    wifi: true,
+    kitchen: true,
+    parking: false,
+  },
+  features: ["Studio", "Central Location"],
+  images: [
+    "https://images.unsplash.com/photo-1505691723518-34f1b90b222d?auto=format&fit=crop&w=600&q=60",
+  ],
+},
+
   {
     _id: "36",
     title: "Rustic Forest Treehouse",
@@ -1274,6 +1521,167 @@ const dummyProperties = [
     ],
   },
 
+  // New York — Midtown Luxury Condo
+{
+  _id: "NY1",
+  title: "Midtown Luxury Condo with Skyline Views",
+  description:
+    "Modern condo located in the heart of Midtown Manhattan, with panoramic skyline views, close to Times Square and public transit.",
+  price: 350,
+  propertyType: "Condo",
+  category: "Condo",
+  capacity: {
+    bedrooms: 2,
+    bathrooms: 2,
+  },
+  size: 110,
+  rating: 4.92,
+  location: {
+    city: "New York",
+    country: "USA",
+  },
+  amenities: {
+    wifi: true,
+    kitchen: true,
+    ac: true,
+    workspace: true,
+    parking: false,
+  },
+  features: ["City View", "Gym Access"],
+  images: [
+    "https://images.unsplash.com/photo-1560448075-bb0a3fe5e131?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=60",
+  ],
+},
+
+// New York — Brooklyn Brownstone
+{
+  _id: "NY2",
+  title: "Historic Brooklyn Brownstone Retreat",
+  description:
+    "Charming brownstone in Brooklyn with classic architecture and modern interior. Close to cafes, shops, and subway lines.",
+  price: 280,
+  propertyType: "House",
+  category: "House",
+  capacity: {
+    bedrooms: 3,
+    bathrooms: 2,
+  },
+  size: 160,
+  rating: 4.88,
+  location: {
+    city: "New York",
+    country: "USA",
+  },
+  amenities: {
+    wifi: true,
+    kitchen: true,
+    washer: true,
+    dryer: true,
+    ac: true,
+  },
+  features: ["Historic", "Neighborhood"],
+  images: [
+    "https://images.unsplash.com/photo-1572120360610-d971b9b62a4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=60",
+  ],
+},
+
+// New York — Central Park Luxury Suite
+{
+  _id: "NY3",
+  title: "Central Park Luxury Suite",
+  description:
+    "Elegant suite overlooking Central Park with high-end furnishings, concierge service, and quick access to Fifth Avenue shopping.",
+  price: 420,
+  propertyType: "Apartment",
+  category: "Apartment",
+  capacity: {
+    bedrooms: 2,
+    bathrooms: 2,
+  },
+  size: 130,
+  rating: 4.95,
+  location: {
+    city: "New York",
+    country: "USA",
+  },
+  amenities: {
+    wifi: true,
+    ac: true,
+    kitchen: true,
+    hotTub: false,
+    parking: false,
+  },
+  features: ["Central Park View", "Concierge"],
+  images: [
+    "https://images.unsplash.com/photo-1615909040947-cfafb14fc1f0?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=60",
+  ],
+},
+
+// New York — Stylish Loft in SoHo
+{
+  _id: "NY4",
+  title: "Stylish Loft in SoHo",
+  description:
+    "A bright and airy loft in SoHo with exposed brick walls, designer furniture, and walking distance to boutiques and galleries.",
+  price: 310,
+  propertyType: "Apartment",
+  category: "Apartment",
+  capacity: {
+    bedrooms: 1,
+    bathrooms: 1,
+  },
+  size: 95,
+  rating: 4.84,
+  location: {
+    city: "New York",
+    country: "USA",
+  },
+  amenities: {
+    wifi: true,
+    ac: true,
+    kitchen: true,
+    workspace: true,
+  },
+  features: ["Designer", "Urban"],
+  images: [
+    "https://images.unsplash.com/photo-1542318414-1f5a3b2b2c90?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=60",
+  ],
+},
+
+// New York — Upper East Side Townhouse
+{
+  _id: "NY5",
+  title: "Upper East Side Townhouse",
+  description:
+    "Spacious townhouse in the Upper East Side with a private garden, perfect for families or long stays in New York City.",
+  price: 500,
+  propertyType: "House",
+  category: "House",
+  capacity: {
+    bedrooms: 4,
+    bathrooms: 3,
+  },
+  size: 220,
+  rating: 4.98,
+  location: {
+    city: "New York",
+    country: "USA",
+  },
+  amenities: {
+    wifi: true,
+    kitchen: true,
+    parking: false,
+    ac: true,
+    washer: true,
+    dryer: true,
+  },
+  features: ["Private Garden", "Family Friendly"],
+  images: [
+    "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=60",
+  ],
+},
+
+
   // update
   {
     _id: "44",
@@ -1304,3 +1712,4 @@ const dummyProperties = [
     ],
   },
 ];
+export default dummyProperties;
