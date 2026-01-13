@@ -1,4 +1,4 @@
-export const dummyProperties = [
+const dummyProperties = [
   // Apartment category (2 properties)
   {
     _id: "1",
@@ -1304,5 +1304,3 @@ export const dummyProperties = [
     ],
   },
 ];
-
-export default dummyProperties;

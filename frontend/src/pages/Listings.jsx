@@ -142,7 +142,35 @@ const Listings = () => {
     fetchWishlist();
   }, []);
 
-  
+  useEffect(() => {
+   
+    // Reset all filters when the page loads to ensure all properties show
+    setFilters({
+      priceMin: "",
+      priceMax: "",
+      propertyType: "",
+      bedrooms: "",
+      location: "",
+      experience: "",
+      language: language, // Add language to filters
+    });
+    setActiveCategory("all");
+    setAmenityFilters({
+      topRated: false,
+      wifi: false,
+      pool: false,
+      kitchen: false,
+      parking: false,
+      petFriendly: false,
+      ac: false,
+      hotTub: false,
+      breakfast: false,
+      workspace: false,
+      washer: false,
+      dryer: false,
+      gym: false,
+    });
+  }, [language]);
   /**
    * Main effect for fetching properties and handling URL parameters
    * Runs when the URL search parameters change
