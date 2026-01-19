@@ -408,13 +408,6 @@ const TripManage = () => {
                   Cancel request
                 </button>
               )}
-
-              <Link
-              to={`/property/${trip.property.id}`}
-                className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-primary-600 hover:bg-primary-700"
-              >
-                View property details
-              </Link>
             </div>
           </div>
         </div>
